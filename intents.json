@@ -1,0 +1,77 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello"],
+            "responses": ["Hello, Welcome to the placement CELL LDCE\n 0:Placement Statistics\n 1:Our recruiters\n 2:Software/Hardware \n 3:Placement Process \n 4:Resume/Interview tips \n 5:Placement rules and regulations "]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["Who are you?", "What are you?", "Who you are?"],
+            "responses": ["This is placement cell of LDCE.You can get all the information regarding placement drive here only"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+            "responses": ["Tell me how can assist you, You can ask me anything about placement cell\n 0:Placement Statistics\n 1:Our recruiters\n 2:Software/Hardware \n 3:Placement Process \n 4:Resume/Interview tips \n 5:Placement rules and regulations "]
+        },
+
+        {
+            "tag": "complaint",
+            "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+            "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+        },
+        {
+            "tag": "placment stats",
+            "patterns": ["0"],
+            "responses": [""]
+        },
+        {
+            "tag": "Top Recruiters",
+            "patterns": ["1"],
+            "responses": [""]
+        },
+        {
+            "tag": "Hardware/Softwares",
+            "patterns": ["2"],
+            "responses": ["Which type of company details do you want to know? Software or Hardware"]
+        },
+
+        {
+            "tag": "Hardwares",
+            "patterns": ["Hardware"],
+            "responses": ["E-Infochips\n L&T\n GNFC\n Ambuja cement \nReliance \nTata motors \nMG motors"]
+        },
+        {
+            "tag": "Softwares",
+            "patterns": ["Software"],
+            "responses": ["Accenture\n TCS\n Cognizant\n HSBC\n Deloitte \nTatvasoft "]
+
+        },
+        {
+            "tag": "Placement process",
+            "patterns": ["3"],
+            "responses": ["Step-1:Online Aptitude test\n\nStep-2:Group discussions(depends on company)\n\nStep-3:Personal Interviews\n\nStep-4:HR round"]
+        },
+        {
+            "tag": "Resume building",
+            "patterns": ["4"],
+            "responses": ["Tip-1:it should have your name,contact no,education,experience,leadership roles(if any)\n\nTip-2:mention internships and projects clearly in a detailed manner\n\nTip-3:Dont mention other unnecssary and personal details"]
+        },
+        {
+            "tag": "TPO rules",
+            "patterns": ["5"],
+            "responses": ["1. The training and placement cell of LDCE follows one student, one job policy. Once the candidate is selected in their core company, his/her name will be removed from the placement database.\n\n2. If results are delayed student will be allowed to seat in another company.\n\n3. If the data filled by candidates is found faulty, he/she will not be allowed to seat in further placement process.\n\n4. All the candidate should come in completely formal for the placement drive.\n\n5. If the candidate register for the drive for particular compamy, he/she will not be able to leave the process in between. "]
+        }
+
+    ]
+}
